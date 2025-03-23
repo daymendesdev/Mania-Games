@@ -15,13 +15,15 @@ body{
 header {
     background-color: #251b58;
     color: white;
+    opacity: 90%;
+    position: fixed;
+    width: 100VW;
 }
 
 header img{
     height: 60px;
     width: 90px;
 }
-
 
 .nav-bar {
     display: flex;
@@ -96,30 +98,62 @@ header img{
 
 .side{
     width: 50vw;
-    height: 50vh;
+    height: 70vh;
     color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .side2{
     width: 50vw;
-    
 }
 
 .side2 img{
     max-width: 100%;
 }
 
+main #main-container {
+    background: url("/assets/image/frente-loja.svg") center center/cover;
+    margin-top: 6.5rem ;
+    height: 70vh;
+    width: 100vw;
+  }
 
+  main #main-container #container-secundary {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #251b58 0%, rgba(251, 99, 118, 0) 100%);
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  #infor{
+    display: flex;
+    flex-direction: column;
+  }
+
+  main #main-container #container-secundary  h1 {
+    font-size: 70px;
+    font-weight: 700;
+    flex-wrap: nowrap; 
+  }
+
+  main #main-container #container-secundary  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
 /**Media screen**/
 
 @media screen and (max-width: 730px){
 
+
+
     .nav-bar{
         padding: 1.5rem 4rem;
+            justify-content:space-around;
     }
 
     .nav-item{
