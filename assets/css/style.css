@@ -117,6 +117,7 @@ main #main-container {
     background: url("/assets/image/frente-loja.svg") center center/cover;
     margin-top: 6.5rem ;
     height: 70vh;
+    height: 80vh;
     width: 100vw;
   }
 
@@ -128,7 +129,7 @@ main #main-container {
     align-items: center;
     color: #fff;
   }
-
+*/
   #infor{
     display: flex;
     flex-direction: column;
