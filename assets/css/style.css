@@ -356,11 +356,14 @@ main #main-container #container-secundary h2 {
     
     #main-container {
         margin-bottom: 0;
+        min-height: auto;
+        padding-bottom: 5rem;
     }
     
     #sobre-nos {
         padding-top: 0;
-        margin-top: -1rem;
+        margin-top: 0;
+        padding-bottom: 3rem;
     }
 }
 
@@ -369,6 +372,8 @@ main #main-container #container-secundary h2 {
     #main-container {
         margin-top: 8em;
         margin-bottom: 0;
+        min-height: auto;
+        padding-bottom: 4rem;
     }
 
     .texto-container h1 {
@@ -381,7 +386,8 @@ main #main-container #container-secundary h2 {
     
     #sobre-nos {
         padding-top: 0;
-        margin-top: -0.5rem;
+        margin-top: 0;
+        padding-bottom: 2.5rem;
     }
 }
 
@@ -395,9 +401,14 @@ main #main-container #container-secundary h2 {
         font-size: clamp(0.875rem, 1.75vw, 1rem);
     }
     
+    #main-container {
+        padding-bottom: 3rem;
+    }
+    
     #sobre-nos {
         padding-top: 0;
-        margin-top: -0.25rem;
+        margin-top: 0;
+        padding-bottom: 2rem;
     }
 }
 
