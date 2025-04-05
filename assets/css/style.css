@@ -421,6 +421,8 @@ main #main-container #container-secundary h2 {
 .imagem-sobre img {
     max-width: 100%;
     height: auto;
+    max-height: 500px;
+    object-fit: contain;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
@@ -429,6 +431,10 @@ main #main-container #container-secundary h2 {
 @media screen and (max-width: 64rem) {
     .container-sobre {
         gap: 2rem;
+    }
+    
+    .imagem-sobre img {
+        max-height: 450px;
     }
 }
 
@@ -446,6 +452,10 @@ main #main-container #container-secundary h2 {
     .imagem-sobre {
         order: 2 !important;
     }
+    
+    .imagem-sobre img {
+        max-height: 400px;
+    }
 }
 
 /* Celulares médios */
@@ -453,12 +463,20 @@ main #main-container #container-secundary h2 {
     #sobre-nos {
         padding: 3rem 1rem;
     }
+    
+    .imagem-sobre img {
+        max-height: 350px;
+    }
 }
 
 /* Celulares pequenos */
 @media screen and (max-width: 24rem) {
     #sobre-nos {
         padding: 2rem 1rem;
+    }
+    
+    .imagem-sobre img {
+        max-height: 300px;
     }
 }
 
