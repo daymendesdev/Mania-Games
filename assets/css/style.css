@@ -353,12 +353,21 @@ main #main-container #container-secundary h2 {
     .imagem-container {
         order: 2 !important;
     }
+    
+    #main-container {
+        margin-bottom: 1rem;
+    }
+    
+    #sobre-nos {
+        padding-top: 1rem;
+    }
 }
 
 /* Celulares médios */
 @media screen and (max-width: 36rem) {
     #main-container {
         margin-top: 8em;
+        margin-bottom: 0.5rem;
     }
 
     .texto-container h1 {
@@ -367,6 +376,10 @@ main #main-container #container-secundary h2 {
     
     .texto-container h2 {
         font-size: clamp(1rem, 2vw, 1.25rem);
+    }
+    
+    #sobre-nos {
+        padding-top: 0.5rem;
     }
 }
 
@@ -378,6 +391,10 @@ main #main-container #container-secundary h2 {
     
     .texto-container h2 {
         font-size: clamp(0.875rem, 1.75vw, 1rem);
+    }
+    
+    #sobre-nos {
+        padding-top: 0.25rem;
     }
 }
 
