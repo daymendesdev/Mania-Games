@@ -436,6 +436,10 @@ main #main-container #container-secundary h2 {
     .imagem-sobre img {
         max-height: 450px;
     }
+    
+    .texto-sobre p {
+        font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+    }
 }
 
 /* Tablets pequenos e celulares grandes */
@@ -446,15 +450,19 @@ main #main-container #container-secundary h2 {
     }
 
     .texto-sobre {
-        order: 1 !important;
+        order: 2 !important;
     }
 
     .imagem-sobre {
-        order: 2 !important;
+        order: 1 !important;
     }
     
     .imagem-sobre img {
         max-height: 400px;
+    }
+    
+    .texto-sobre p {
+        font-size: clamp(0.85rem, 1.6vw, 1rem);
     }
 }
 
@@ -467,6 +475,10 @@ main #main-container #container-secundary h2 {
     .imagem-sobre img {
         max-height: 350px;
     }
+    
+    .texto-sobre p {
+        font-size: clamp(0.8rem, 1.4vw, 0.9rem);
+    }
 }
 
 /* Celulares pequenos */
@@ -477,6 +489,10 @@ main #main-container #container-secundary h2 {
     
     .imagem-sobre img {
         max-height: 300px;
+    }
+    
+    .texto-sobre p {
+        font-size: clamp(0.75rem, 1.2vw, 0.85rem);
     }
 }
 
