@@ -314,6 +314,7 @@ main #main-container #container-secundary h2 {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    padding-right: 4rem;
 }
 
 .imagem-container img {
@@ -331,6 +332,10 @@ main #main-container #container-secundary h2 {
     .texto-container h2 {
         font-size: clamp(1.125rem, 2.5vw, 1.5rem);
     }
+    
+    .imagem-container {
+        padding-right: 3rem;
+    }
 }
 
 /* Tablets pequenos e celulares grandes */
@@ -344,6 +349,7 @@ main #main-container #container-secundary h2 {
     .imagem-container {
         width: 100%;
         padding: 1.5rem;
+        padding-right: 1.5rem;
     }
 
     .texto-container {
